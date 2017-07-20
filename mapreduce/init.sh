@@ -7,7 +7,7 @@ case "$HADOOP_MAJOR_VERSION" in
     ;;
   2) 
     #wget http://s3.amazonaws.com/spark-related-packages/mr1-2.0.0-mr1-cdh4.2.0.tar.gz 
-    wget http://54.223.242.151:9000/spark-files/mr1-2.0.0-mr1-cdh4.2.0.tar.gz
+    wget http://172.31.19.166:9000/spark-files/mr1-2.0.0-mr1-cdh4.2.0.tar.gz
     tar -xvzf mr1-*.tar.gz > /tmp/spark-ec2_mapreduce.log
     rm mr1-*.tar.gz
     mv hadoop-2.0.0-mr1-cdh4.2.0/ mapreduce/

@@ -131,7 +131,7 @@ else
         wget http://s3.amazonaws.com/spark-related-packages/spark-$SPARK_VERSION-bin-cdh4.tgz
       else
         # wget http://s3.amazonaws.com/spark-related-packages/spark-$SPARK_VERSION-bin-hadoop2.4.tgz
-        wget http://54.223.242.151:9000/spark-files/spark-2.1.0-bin-hadoop2.4.tgz
+        wget http://172.31.19.166:9000/spark-files/spark-2.1.0-bin-hadoop2.4.tgz
       fi
       if [ $? != 0 ]; then
         echo "ERROR: Unknown Spark version"
